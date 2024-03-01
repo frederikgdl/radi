@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Radi</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <style>
+      @font-face {
+        font-family: Nelphim;
+        src: url("Nelphim.otf");
+      }
+
       body {
-        font-family: "Raleway", Arial, sans-serif;
+        font-family: Nelphim, sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -24,9 +23,7 @@
       h1 {
         font-size: clamp(2rem, 20vw, 10rem);
         color: #333;
-        font-optical-sizing: auto;
         font-weight: 100;
-        font-style: normal;
       }
     </style>
   </head>
